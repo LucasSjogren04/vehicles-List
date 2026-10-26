@@ -34,3 +34,8 @@ dotnet run --project vehicles-List
 | Swedish license plate check | `Vehicle.IsValidLicensePlate()`, used by `UserInterface.AskLicensePlate()` |
 | Input validation | `UserInterface.AskText()`, `AskNumber()`, `AskLicensePlate()` |
 | How vehicles are printed | `ToString()` in `Vehicle`, overridden in each subclass |
+
+## Jag vill ha feedback på
+- separation av olika funktionaliteter till olika klasser.
+- Felhantering.
+- Läsbarhet på koden.
