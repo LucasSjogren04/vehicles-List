@@ -1,3 +1,14 @@
+##The Program
+A console application that simulates a garage with a fixed number of parking spots, chosen when the garage is created. Vehicles (cars, motorcycles, buses, airplanes and boats) can be parked, removed and looked up by license plate. You can list every parked vehicle, or see how many of each vehicle type are parked. You can also search by type, color and number of wheels, in any combination. Only Swedish license plates are accepted (for example `ABC123` or `ABC12A`), and invalid input never crashes the program.
+
+## How to start
+
+Open `vehicles-List.slnx` in Visual Studio and press **F5**, or run this from the solution folder:
+
+```
+dotnet run --project vehicles-List
+```
+
 ## Where things live
 
 | Class | Responsibility |
